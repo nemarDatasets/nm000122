@@ -1,0 +1,47 @@
+{
+	"Name": "Chen2017SingleFlicker",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC BY 4.0",
+	"Authors": [
+		"Jingjing Chen",
+		"Dan Zhang",
+		"Andreas K. Engel",
+		"Qin Gong",
+		"Alexander Maye"
+	],
+	"Funding": [
+		"DFG TRR169/B1/Z2 Crossmodal Learning",
+		"Landesforschungsfoerderung Hamburg CROSS FV25"
+	],
+	"EthicsApprovals": [
+		"Ethics committee of the medical association, Hamburg"
+	],
+	"ReferencesAndLinks": [
+		"https://zenodo.org/records/580485"
+	],
+	"DatasetDOI": "doi:10.1371/journal.pone.0178385",
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.4.3"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.1371/journal.pone.0178385",
+			"URL": "https://zenodo.org/records/580485"
+		}
+	],
+	"Keywords": [
+		"SSVEP",
+		"BCI",
+		"spatial navigation",
+		"single-flicker",
+		"online BCI"
+	],
+	"PublicationYear": 2017
+}

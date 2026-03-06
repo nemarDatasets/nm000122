@@ -1,0 +1,93 @@
+_dataset:
+  class: Chen2017SingleFlicker
+  code: Chen2017SingleFlicker
+  doi: 10.1371/journal.pone.0178385
+  interval:
+  - 0.0
+  - 3.5
+  n_subjects: 12
+  paradigm: ssvep
+acquisition:
+  cap_manufacturer: BioSemi
+  channel_types:
+    eeg: 32
+  electrode_material: sintered Ag/AgCl
+  hardware: BioSemi ActiveTwo
+  line_freq: 50.0
+  montage: biosemi32
+  n_channels: 32
+  reference: CMS/DRL
+  sampling_rate: 2048.0
+  sensor_type: active
+bci_application:
+  environment: lab
+  online_feedback: true
+documentation:
+  country: DE
+  data_url: https://zenodo.org/records/580485
+  doi: 10.1371/journal.pone.0178385
+  ethics_approval:
+  - Ethics committee of the medical association, Hamburg
+  funding:
+  - DFG TRR169/B1/Z2 Crossmodal Learning
+  - Landesforschungsfoerderung Hamburg CROSS FV25
+  institution: University Medical Center Hamburg-Eppendorf
+  institution_department: Department of Neurophysiology and Pathophysiology, University Medical Center Hamburg-Eppendorf
+  investigators:
+  - Jingjing Chen
+  - Dan Zhang
+  - Andreas K. Engel
+  - Qin Gong
+  - Alexander Maye
+  keywords:
+  - SSVEP
+  - BCI
+  - spatial navigation
+  - single-flicker
+  - online BCI
+  license: CC BY 4.0
+  publication_year: 2017
+  repository: Zenodo
+  senior_author: Alexander Maye
+experiment:
+  class_labels:
+  - north
+  - east
+  - west
+  - south
+  feedback_type: visual
+  has_training_test_split: true
+  mode: online
+  n_classes: 4
+  paradigm: ssvep
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: single-flicker spatially coded
+  study_design: Spatial navigation with single 15 Hz flicker
+  synchronicity: synchronous
+  task_type: spatial navigation
+file_format: XDF/MAT
+paradigm_specific:
+  detected_paradigm: ssvep
+  stimulus_frequencies_hz:
+  - 15.0
+participants:
+  age_max: 32
+  age_mean: 23.5
+  age_min: 19
+  gender:
+    female: 7
+    male: 5
+  health_status: healthy
+  n_subjects: 12
+  species: homo sapiens
+runs_per_session: 1
+sessions_per_subject: 2
+tags:
+  modality:
+  - visual
+  pathology:
+  - healthy
+  type:
+  - perception
