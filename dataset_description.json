@@ -1,5 +1,5 @@
 {
-	"Name": "Chen2017SingleFlicker",
+	"Name": "Single-flicker online SSVEP BCI dataset",
 	"BIDSVersion": "1.9.0",
 	"HEDVersion": "8.4.0",
 	"DatasetType": "derivative",
@@ -21,7 +21,6 @@
 	"ReferencesAndLinks": [
 		"https://zenodo.org/records/580485"
 	],
-	"DatasetDOI": "doi:10.1371/journal.pone.0178385",
 	"GeneratedBy": [
 		{
 			"CodeURL": "https://github.com/NeuroTechX/moabb",
