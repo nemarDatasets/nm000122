@@ -1,0 +1,96 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jingjing Chen": {},
+    "Dan Zhang": {},
+    "Andreas K. Engel": {},
+    "Qin Gong": {},
+    "Alexander Maye": {
+      "orcid": "0000-0002-3660-4186"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1371/journal.pone.0178385",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000122",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000122",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "DFG",
+      "award_number": "TRR169/B1/Z2",
+      "award_title": "Crossmodal Learning"
+    },
+    {
+      "funder_name": "Landesforschungsfoerderung Hamburg",
+      "award_number": "CROSS FV25"
+    }
+  ],
+  "title": "Single-flicker online SSVEP BCI dataset",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "777.5 MB (14 files)"
+  ],
+  "formats": [
+    ".html",
+    ".json",
+    ".md",
+    ".set",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "This dataset comprises EEG recordings from 12 healthy participants performing a spatial navigation task using a single-flicker steady-state visual evoked potential (SSVEP) brain-computer interface. Participants were presented with a 15 Hz visual stimulus and instructed to navigate in four directions (north, east, west, south) based on visual feedback. The dataset includes 2 sessions per subject with 32-channel EEG data acquired at 512 Hz using BioSemi ActiveTwo hardware, and represents an online BCI application with within-subject cross-validation.",
+  "methods_description": "EEG data were acquired from 12 healthy participants (5 male, 7 female; mean age 23.5 years) using a 32-channel BioSemi ActiveTwo system with sintered Ag/AgCl electrodes in a biosemi32 montage. Sampling rate was 512 Hz with CMS/DRL reference and 50 Hz line frequency. Participants performed a spatial navigation task with single-flicker visual stimulation at 15 Hz, with trial intervals of 0.0-3.5 seconds. Signal processing employed canonical correlation analysis (CCA) for feature extraction and linear discriminant analysis (LDA) for classification with bandpass filtering at 1.0-80.0 Hz.",
+  "keywords": [
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "spatial navigation"
+    },
+    {
+      "term": "online BCI"
+    },
+    {
+      "term": "visual evoked potentials"
+    }
+  ],
+  "source_hash": "05c730fb721b7825149a6e2d0670c2bb409aba18c9d72219c95e776c916af917"
+}
