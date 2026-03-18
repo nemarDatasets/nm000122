@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Chen2017 – Single-flicker online SSVEP BCI dataset",
+  "description": "A 32-channel EEG dataset from 12 healthy subjects performing a spatial navigation task using a single-flicker steady-state visual evoked potential (SSVEP) brain-computer interface. The dataset comprises two sessions per subject: a structured training session with calibration data recorded at 2048 Hz, and an online adaptive BCI game session recorded at 512 Hz. Data were acquired using a BioSemi ActiveTwo system with a spatially-coded paradigm where a single 15 Hz flickering stimulus was presented centrally while subjects attended to one of four cardinal direction targets.",
+  "methods_description": "EEG data were recorded from 12 healthy subjects (7 female, 5 male; mean age 23.5 years, range 19-32) using a BioSemi ActiveTwo amplifier with 32 active electrodes in a biosemi32 montage and CMS/DRL reference. Training session data were acquired at 2048 Hz in XDF format with 2 runs of 100 trials per subject (50 trials per direction). Online session data were acquired at 512 Hz in MAT format with variable-length trials from approximately 16 game rounds per subject. All trials were approximately 3.5 seconds in duration.",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Jingjing Chen": {},
     "Dan Zhang": {},
@@ -10,6 +15,29 @@
       "orcid": "0000-0002-3660-4186"
     }
   },
+  "keywords": [
+    {
+      "term": "SSVEP"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "spatial navigation"
+    },
+    {
+      "term": "single-flicker paradigm"
+    },
+    {
+      "term": "online BCI"
+    },
+    {
+      "term": "visual evoked potentials"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1371/journal.pone.0178385",
@@ -48,14 +76,11 @@
       "award_number": "CROSS FV25"
     }
   ],
-  "title": "Single-flicker online SSVEP BCI dataset",
-  "license": "CC BY 4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "777.5 MB (14 files)"
   ],
@@ -68,29 +93,5 @@
     ".yaml",
     ".yml"
   ],
-  "description": "This dataset comprises EEG recordings from 12 healthy participants performing a spatial navigation task using a single-flicker steady-state visual evoked potential (SSVEP) brain-computer interface. Participants were presented with a 15 Hz visual stimulus and instructed to navigate in four directions (north, east, west, south) based on visual feedback. The dataset includes 2 sessions per subject with 32-channel EEG data acquired at 512 Hz using BioSemi ActiveTwo hardware, and represents an online BCI application with within-subject cross-validation.",
-  "methods_description": "EEG data were acquired from 12 healthy participants (5 male, 7 female; mean age 23.5 years) using a 32-channel BioSemi ActiveTwo system with sintered Ag/AgCl electrodes in a biosemi32 montage. Sampling rate was 512 Hz with CMS/DRL reference and 50 Hz line frequency. Participants performed a spatial navigation task with single-flicker visual stimulation at 15 Hz, with trial intervals of 0.0-3.5 seconds. Signal processing employed canonical correlation analysis (CCA) for feature extraction and linear discriminant analysis (LDA) for classification with bandpass filtering at 1.0-80.0 Hz.",
-  "keywords": [
-    {
-      "term": "SSVEP"
-    },
-    {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "spatial navigation"
-    },
-    {
-      "term": "online BCI"
-    },
-    {
-      "term": "visual evoked potentials"
-    }
-  ],
-  "source_hash": "05c730fb721b7825149a6e2d0670c2bb409aba18c9d72219c95e776c916af917"
+  "source_hash": "3f8d32d52ef55772b7e5fda6e922c6769b06fe28bfb802b7c98a84d0668f3804"
 }
