@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Chen2017 – Single-flicker online SSVEP BCI dataset",
-  "description": "A 32-channel EEG dataset from 12 healthy subjects performing a spatial navigation task using a single-flicker steady-state visual evoked potential (SSVEP) brain-computer interface. The dataset comprises two sessions per subject: a structured training session with 200 trials per subject recorded at 2048 Hz, and an online adaptive BCI game session recorded at 512 Hz. The paradigm employs a spatially-coded design where a single 15 Hz flickering stimulus in the center of the screen produces distinct spatial topographies corresponding to four cardinal directions (north, east, west, south), enabling direction-specific decoding without frequency-based analysis.",
-  "methods_description": "EEG data were acquired using a BioSemi ActiveTwo system with 32 active electrodes arranged in the biosemi32 montage and CMS/DRL reference. Training sessions were recorded at 2048 Hz with 100 trials per run (50 per direction, 200 total) lasting approximately 3.5 seconds each. Online sessions were recorded at 512 Hz with variable-length trials from approximately 16 game rounds per subject. All recordings used sintered Ag/AgCl electrodes with a 50 Hz line frequency.",
+  "description": "A 32-channel EEG dataset from 12 healthy subjects performing a spatial navigation task using a single-flicker steady-state visual evoked potential (SSVEP) brain-computer interface. The dataset comprises two sessions per subject: a structured training session with 200 trials per subject recorded at 2048 Hz, and an online adaptive BCI game session recorded at 512 Hz. This paradigm employs a spatially-coded approach where a single 15 Hz flickering stimulus is presented centrally while subjects attend to one of four cardinal direction targets, producing distinct spatial topographies of the SSVEP response.",
+  "methods_description": "EEG data were acquired using a BioSemi ActiveTwo amplifier with 32 active electrodes arranged in the biosemi32 montage and CMS/DRL reference. Training sessions were recorded at 2048 Hz with 100 trials per run (50 trials per direction, ~3.5 s per trial). Online sessions were recorded at 512 Hz with variable-length trials from approximately 16 game rounds per subject. All recordings used sintered Ag/AgCl electrodes with a 50 Hz line frequency.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -20,7 +20,9 @@
       "term": "SSVEP"
     },
     {
-      "term": "brain-computer interface"
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "EEG"
@@ -29,13 +31,13 @@
       "term": "spatial navigation"
     },
     {
-      "term": "motor imagery"
-    },
-    {
       "term": "single-flicker paradigm"
     },
     {
       "term": "online BCI"
+    },
+    {
+      "term": "visual evoked potentials"
     }
   ],
   "related_identifiers": [
@@ -95,5 +97,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "6ff37bfc7b0898e4c2125c07e81da8f8d429e942a7e99d351284a68d866768fa"
+  "source_hash": "c0cd78cfa4fc21ba3769227b9eb3091498a27fe403dedcebe0ca4d02548641f0"
 }
