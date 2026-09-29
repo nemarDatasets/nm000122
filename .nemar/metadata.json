@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Chen2017 – Single-flicker online SSVEP BCI dataset",
-  "description": "A 32-channel EEG dataset from 12 healthy subjects performing a spatial navigation task using a single-flicker steady-state visual evoked potential (SSVEP) brain-computer interface. The dataset comprises two sessions per subject: a structured training session with 200 trials per subject recorded at 2048 Hz, and an online adaptive BCI game session recorded at 512 Hz. This paradigm employs a spatially-coded approach where a single 15 Hz flickering stimulus is presented centrally while subjects attend to one of four cardinal direction targets, producing distinct spatial topographies of the SSVEP response.",
-  "methods_description": "EEG data were acquired using a BioSemi ActiveTwo amplifier with 32 active electrodes arranged in the biosemi32 montage and CMS/DRL reference. Training sessions were recorded at 2048 Hz with 100 trials per run (50 trials per direction, ~3.5 s per trial). Online sessions were recorded at 512 Hz with variable-length trials from approximately 16 game rounds per subject. All recordings used sintered Ag/AgCl electrodes with a 50 Hz line frequency.",
+  "description": "This dataset contains 32-channel EEG recorded with a BioSemi ActiveTwo system from 12 healthy participants using a single-flicker, spatially coded SSVEP brain-computer interface for spatial navigation. A single 15 Hz flickering square is shown at the screen center, and four non-flickering targets lie at the cardinal directions. Gaze direction produces distinct spatial topographies of the SSVEP response. Two sessions per subject are included: a structured training calibration session and an online adaptive BCI game session.",
+  "methods_description": "EEG was recorded at 32 channels with a BioSemi ActiveTwo system (CMS/DRL reference, biosemi32 montage). Session 0 (training) comprised 2 runs of 100 trials each (about 3.5 s per trial) recorded at 2048 Hz in XDF files. Session 1 (online) comprised variable-length trials from roughly 16 game rounds per subject, recorded at 512 Hz in MAT files. Participants gazed at one of four targets (north, east, west, south) while a single 15 Hz flicker was presented.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -17,27 +17,27 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "SSVEP"
     },
     {
-      "term": "Brain-Computer Interfaces",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "EEG"
+      "term": "brain-computer interface"
     },
     {
       "term": "spatial navigation"
     },
     {
-      "term": "single-flicker paradigm"
+      "term": "single-flicker"
     },
     {
       "term": "online BCI"
     },
     {
-      "term": "visual evoked potentials"
+      "term": "Evoked Potentials, Visual",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005074"
     }
   ],
   "related_identifiers": [
@@ -84,7 +84,7 @@
     "eeg"
   ],
   "sizes": [
-    "11.7 GB (230 files)"
+    "10.89 GB (230 files)"
   ],
   "formats": [
     ".html",
